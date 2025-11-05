@@ -24,5 +24,10 @@ export class PostsService {
   }
 
   readonly posts = toSignal(this.getPosts(), { initialValue: [] as Post[] });
-  
+  /*
+  Solución
+  este enlace de github ya tiene la solución
+  https://github.com/carmelogithub/Angular18APIGetok
+  */
+
 }
