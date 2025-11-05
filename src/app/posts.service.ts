@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, inject, Injectable } from '@angular/core';
+import { inject, Injectable } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { map } from 'rxjs';
 
